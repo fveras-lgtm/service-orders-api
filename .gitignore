@@ -1,0 +1,12 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# SQLite database files (must not be committed)
+*.db
+*.db-shm
+*.db-wal
+
+# User-specific / IDE
+.vs/
+*.user

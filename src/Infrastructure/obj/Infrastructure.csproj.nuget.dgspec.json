@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj": {
+    "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\FernelyVeras\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\obj\\",
+        "outputPath": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -30,10 +30,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj": {
-                "projectPath": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj"
+              "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj"
               }
             }
           }
@@ -52,6 +53,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "FluentValidation": {
@@ -361,14 +363,14 @@
         }
       }
     },
-    "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj": {
+    "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\FernelyVeras\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -387,6 +389,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -405,6 +408,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -700,14 +704,14 @@
         }
       }
     },
-    "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\FernelyVeras\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -726,10 +730,11 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj": {
-                "projectPath": "c:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj"
+              "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\FernelyVeras\\Projects\\service-orders-api\\src\\Application\\Application.csproj"
               }
             }
           }
@@ -748,6 +753,7 @@
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
