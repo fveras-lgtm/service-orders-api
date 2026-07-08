@@ -18,7 +18,8 @@ The solution follows Clean Architecture with dependencies pointing inward
 | `src/WebApi` | Controllers, DI wiring, configuration. Composition root. |
 | `tests/Application.Tests` | xUnit tests for Application-layer handlers and validators. |
 
-**Stack:** .NET 10 · ASP.NET Core · MediatR (CQRS) · EF Core + SQLite · FluentValidation · xUnit.
+**Stack:** .NET 10 · ASP.NET Core · MediatR (CQRS) · EF Core + SQLite · FluentValidation · xUnit ·
+Scalar (interactive API reference).
 
 ## Requirements
 
@@ -63,7 +64,15 @@ The API listens on:
 - HTTP — `http://localhost:5204`
 - HTTPS — `https://localhost:7170`
 
-In the `Development` environment the OpenAPI document is served at `/openapi/v1.json`.
+In the `Development` environment:
+
+- The OpenAPI document is served at `/openapi/v1.json`.
+- **[Scalar](https://scalar.com/) — interactive API reference — is served at
+  [`/scalar`](http://localhost:5204/scalar).** Open it in the browser to explore the endpoints and
+  send requests (the "Test Request" button) without needing `curl` or Postman.
+
+> Scalar and the OpenAPI endpoint are exposed **only in Development**, so they are not published in
+> production builds.
 
 ## Run the tests
 
@@ -80,7 +89,9 @@ dotnet test --filter "FullyQualifiedName~GetOrdersByStatus"
 
 ## Endpoints
 
-Base route: `/api/service-orders`
+Base route: `/api/service-orders`. The quickest way to try them is the Scalar UI at
+[`/scalar`](http://localhost:5204/scalar) (see [Run the API](#run-the-api)); the `curl` examples
+below are the equivalent raw requests.
 
 | Method & route | Description | Request | Responses |
 | --- | --- | --- | --- |

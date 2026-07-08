@@ -13,6 +13,7 @@ REST Web API for technical service orders, built with Clean Architecture and CQR
 - **CQRS via MediatR** — commands and queries dispatched through `IMediator`
 - **EF Core + SQLite** — persistence
 - **xUnit** — testing
+- **Scalar** (`Scalar.AspNetCore`) — interactive API reference/testing UI, mapped at `/scalar` in Development (reads the `MapOpenApi()` document)
 
 ## Important paths
 

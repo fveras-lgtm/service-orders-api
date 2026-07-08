@@ -2,6 +2,7 @@ using Application;
 using Infrastructure;
 using Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
+using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,15 @@ using (var scope = app.Services.CreateScope())
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
+
+    // Interactive API reference for testing the endpoints (Development only).
+    // Available at /scalar; reads the OpenAPI document served by MapOpenApi().
+    app.MapScalarApiReference(options =>
+    {
+        options
+            .WithTitle("Service Orders API")
+            .WithTheme(ScalarTheme.Purple);
+    });
 }
 
 app.UseHttpsRedirection();
